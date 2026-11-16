@@ -1,0 +1,16 @@
+{
+  "name": "academia-web",
+  "version": "1.0.0",
+  "description": "Academia Triunfadores",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Andre Luis",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  }
+}

@@ -1,0 +1,57 @@
+.logo-img {
+  background: white;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.nombre-academia {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.img-banner {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+
+.titulo-galeria {
+  margin-top: 110px;
+}
+
+.frase {
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.frase p {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 980px) {
+  .img-banner {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .img-banner {
+    height: 220px;
+  }
+  .nombre-academia {
+    font-size: 15px;
+  }
+}
